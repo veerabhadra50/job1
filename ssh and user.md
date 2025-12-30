@@ -113,3 +113,12 @@ sudo systemctl status ssh
 sudo nano /etc/ssh/sshd_config
 # Change: PermitRootLogin no
 sudo systemctl restart ssh
+
+# 17. list all user on the system
+cat /etc/passwd
+
+# 18. list only user name 
+cut -d:-f1/etcpasswd
+
+
+![WhatsApp Image 2025-12-30 at 10 10 05 PM (2)](https://github.com/user-attachments/assets/d434c2c6-2dff-4b35-9707-52adee4c3da9)
